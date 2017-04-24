@@ -11,7 +11,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { RestapiServices } from '../providers/restapi-services';
+import { RestapiService } from '../providers/restapi-service';
 
 @NgModule({
   declarations: [

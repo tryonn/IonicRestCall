@@ -14,7 +14,7 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class RestapiService {
 	data: any;
-	var apiUrl = 'https://jsonplaceholder.typicode.com';
+	apiUrl = 'https://jsonplaceholder.typicode.com';
 
   constructor(public http: Http) {
     console.log('Hello RestapiService Provider');
